@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Text_Summarization-Project"
+REPO_NAME = "Text_Summarizer-Project"
 AUTHOR_USER_NAME = "SairamCh01"
-SRC_REPO = "Text_Summarization"
+SRC_REPO = "Text_Summarizer"
 AUTHOR_EMAIL = "chsairam91486@gmail.com"
 
 setuptools.setup(
@@ -15,7 +15,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for Text Summarization",
+    description="A small python package for Text Summarizer",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
