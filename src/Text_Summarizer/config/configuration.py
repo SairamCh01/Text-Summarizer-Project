@@ -49,7 +49,7 @@ class ConfigurationManager:
     
 
 
-def get_data_transformation_config(self) -> DataTransformationConfig:
+    def get_data_transformation_config(self) -> DataTransformationConfig:
         config = self.config.data_transformation
 
         create_directories([config.root_dir])
@@ -64,7 +64,7 @@ def get_data_transformation_config(self) -> DataTransformationConfig:
     
 
 
-def get_model_trainer_config(self) -> ModelTrainerConfig:
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.TrainingArguments
 
@@ -89,7 +89,7 @@ def get_model_trainer_config(self) -> ModelTrainerConfig:
     
 
 
-def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
         config = self.config.model_evaluation
 
         create_directories([config.root_dir])
